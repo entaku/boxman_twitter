@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="index.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="/libs/jthree/2.1/jThree.min.js"></script>
+<!--▼プラグインここから-->
+<script src="/libs/stats/1.2/jThree.Stats.js"></script>
+<script src="/libs/trackball/1.4/jThree.Trackball.js"></script>
+
+
+<script src="/libs/xfile/1.1/jThree.XFile.js"></script>
+<!--▲プラグインここまで-->
+<script type="text/goml" src="index.goml"></script>
+<script src="index.js"></script>
+</head>
+<body>
+    <div id="jthreeview"></div>
+    <div><ul id="menu">
+        <li><button id="walk">連打した分歩く</button></li>
+        <li><button id="shouryu">昇竜拳!</button></li>
+        <li><button id="rocketpunch">ロケットパンチ!</button></li>
+        <li><button id="superkick">スーパーキック!!</button></li>
+        <li><hr /></li>
+        <li>Twitter ID:<input id="twitter-id" type="text"><button id="userload">合成!</button></li>
+    </ul></div>
+    <div id="intro"></div>
+    <div id="loading"></div>
+</body>
+</html>
